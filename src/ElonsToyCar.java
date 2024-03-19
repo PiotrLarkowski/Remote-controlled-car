@@ -20,9 +20,12 @@ public class ElonsToyCar {
     }
 
     public void drive() {
-        int passed = Integer.parseInt(distance) + 20;
-        batteryCharge = batteryCharge - 1;
-        distance = "" + passed;
-
+        if(batteryCharge == 0){
+            System.out.println("Battery exhausted");
+        }else{
+            int passed = Integer.parseInt(distance) + 20;
+            batteryCharge = batteryCharge - 1;
+            distance = ""+passed;
+        }
     }
 }

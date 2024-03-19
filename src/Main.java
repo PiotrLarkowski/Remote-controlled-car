@@ -16,6 +16,8 @@ public class Main {
         }
         System.out.println("Show me how much battery is left");
         System.out.println(car.batteryDisplay());
+        System.out.println("I want to drive more");
+        car.drive();
     }
 
 }
