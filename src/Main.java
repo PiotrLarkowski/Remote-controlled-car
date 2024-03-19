@@ -11,6 +11,11 @@ public class Main {
         car.drive();
         System.out.println("Show me how many meters the car traveled");
         System.out.println(car.distanceDisplay());
+        for (int i = 0; i < 98; i++) {
+            car.drive();
+        }
+        System.out.println("Show me how much battery is left");
+        System.out.println(car.batteryDisplay());
     }
 
 }
