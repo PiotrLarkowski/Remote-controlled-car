@@ -4,4 +4,7 @@ public class Main {
         System.out.println("I need to buy new car");
         ElonsToyCar car = ElonsToyCar.buy();
     }
+    public String distanceDisplay() {
+        return "Driven 0 meters";
+    }
 }
