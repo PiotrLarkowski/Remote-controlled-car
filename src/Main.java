@@ -3,8 +3,10 @@ public class Main {
     {
         System.out.println("I need to buy new car");
         ElonsToyCar car = ElonsToyCar.buy();
+        System.out.println("Show me how many meters the car traveled");
+        System.out.println(car.distanceDisplay());
+        System.out.println("Show me how much battery is left");
+        System.out.println(car.batteryDisplay());
     }
-    public String distanceDisplay() {
-        return "Driven 0 meters";
-    }
+
 }
